@@ -14,16 +14,24 @@ function App() {
   const handleUserId = (event) => {
     setUserId(event.target.value);
   };
+
   new ClipboardJS(".btn");
 
   useEffect(() => {
-    console.log("use effect");
-
     setUserLink(`https://${workspace}.slack.com/user/${userId}`);
   }, [workspace, userId]);
   return (
     <div className="App">
       <div className="App-header">
+        <h3 style={{ textAlign: "left" }}>
+          Generate a slack user link
+          <ol>
+            <li>Enter workspace name</li>
+            <li>Enter user Id</li>
+            <li>Press Copy</li>
+          </ol>
+        </h3>
+
         <div style={{ margin: 12 }}>
           <label>Workspace: </label>
           <input type="text" value={workspace} onInput={handleWorkspace} />
@@ -34,7 +42,11 @@ function App() {
         </div>
 
         <div style={{ margin: 12 }}>
-          <input id="userLink" value={userLink} />
+          <input
+            style={{ padding: 4, minWidth: 200 }}
+            id="userLink"
+            value={userLink}
+          />
           <button className="btn" data-clipboard-target="#userLink">
             Copy
           </button>
