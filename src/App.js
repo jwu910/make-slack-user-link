@@ -18,7 +18,7 @@ function App() {
   new ClipboardJS(".btn");
 
   useEffect(() => {
-    setUserLink(`https://${workspace}.slack.com/user/${userId}`);
+    setUserLink(`https://${workspace}.slack.com/team/${userId}`);
   }, [workspace, userId]);
   return (
     <div className="App">
