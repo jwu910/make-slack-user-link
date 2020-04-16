@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/make-slack-user-link/static/css/main.d1b05096.chunk.css",
+    "main.js": "/make-slack-user-link/static/js/main.196f1257.chunk.js",
+    "main.js.map": "/make-slack-user-link/static/js/main.196f1257.chunk.js.map",
+    "runtime-main.js": "/make-slack-user-link/static/js/runtime-main.1e0db30c.js",
+    "runtime-main.js.map": "/make-slack-user-link/static/js/runtime-main.1e0db30c.js.map",
+    "static/js/2.36cbe34a.chunk.js": "/make-slack-user-link/static/js/2.36cbe34a.chunk.js",
+    "static/js/2.36cbe34a.chunk.js.map": "/make-slack-user-link/static/js/2.36cbe34a.chunk.js.map",
+    "index.html": "/make-slack-user-link/index.html",
+    "precache-manifest.6d883b3b26e2d7deb76cbbcbc41df722.js": "/make-slack-user-link/precache-manifest.6d883b3b26e2d7deb76cbbcbc41df722.js",
+    "service-worker.js": "/make-slack-user-link/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/make-slack-user-link/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.36cbe34a.chunk.js.LICENSE.txt": "/make-slack-user-link/static/js/2.36cbe34a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e0db30c.js",
+    "static/js/2.36cbe34a.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.196f1257.chunk.js"
+  ]
+}
