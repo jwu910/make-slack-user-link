@@ -10,7 +10,7 @@
     "clipboard": "^2.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.1"
   },
   "homepage": "https://jwu910.github.io/make-slack-user-link",
   "scripts": {
